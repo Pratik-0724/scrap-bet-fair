@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
-import { Landmark, School, Building, Hospital, CheckCircle, FileText, Laptop, Microscope, HardDrive, Flask } from "lucide-react";
+import { Landmark, School, Building, Hospital, CheckCircle, FileText, Laptop, Microscope, HardDrive, Beaker } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const CategorySection = () => {
@@ -10,7 +10,7 @@ const CategorySection = () => {
       items: [
         { name: "Engineering Colleges", icon: School, count: 128 },
         { name: "Medical Institutes", icon: Hospital, count: 72 },
-        { name: "Pharmaceutical Labs", icon: Flask, count: 45 },
+        { name: "Pharmaceutical Labs", icon: Beaker, count: 45 },
         { name: "Research Centers", icon: Microscope, count: 37 },
       ],
     },
