@@ -146,8 +146,8 @@ const ContactSales = () => {
                       <div>
                         <h3 className="font-semibold">Headquarters</h3>
                         <p className="text-gray-600 mt-1">
-                          123 Green Street<br />
-                          EcoTech Park, Mumbai 400001<br />
+                          123 Prabhat Nagar<br />
+                          Pimple Gurav, Pune 411061<br />
                           India
                         </p>
                       </div>
@@ -164,8 +164,8 @@ const ContactSales = () => {
                       <PhoneIcon className="h-5 w-5 text-primary mt-1" />
                       <div>
                         <h3 className="font-semibold">Phone</h3>
-                        <p className="text-gray-600 mt-1">+91 22 1234 5678</p>
-                        <p className="text-gray-600">+91 98765 43210 (Sales)</p>
+                        <p className="text-gray-600 mt-1">+91 7249791817</p>
+                        <p className="text-gray-600">+91 123456789 (Sales)</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-4">
@@ -173,9 +173,9 @@ const ContactSales = () => {
                       <div>
                         <h3 className="font-semibold">Working Hours</h3>
                         <p className="text-gray-600 mt-1">
-                          Monday - Friday: 9:00 AM - 6:00 PM<br />
-                          Saturday: 10:00 AM - 2:00 PM<br />
-                          Closed on Sundays and Public Holidays
+                          Monday - Saturday: 9:00 AM - 4:00 PM<br />
+                      
+                          Closed on Public Holidays
                         </p>
                       </div>
                     </div>
