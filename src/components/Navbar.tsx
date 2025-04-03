@@ -34,10 +34,10 @@ const Navbar = () => {
           {/* Desktop navigation */}
           <div className="hidden md:flex items-center space-x-4">
             <Link
-              to="/how-it-works"
+              to="/contact"
               className="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium"
             >
-              How It Works
+              Contact Sales
             </Link>
             <Link
               to="/browse"
@@ -82,11 +82,11 @@ const Navbar = () => {
         <div className="md:hidden bg-white shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
-              to="/how-it-works"
+              to="/contact"
               className="block px-3 py-2 text-gray-600 hover:text-primary hover:bg-gray-50 rounded-md"
               onClick={toggleMenu}
             >
-              How It Works
+              Contact Sales
             </Link>
             <Link
               to="/browse"

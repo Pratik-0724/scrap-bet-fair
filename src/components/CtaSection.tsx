@@ -12,7 +12,7 @@ const CtaSection = () => {
         </p>
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
           <Button asChild size="lg" variant="secondary">
-            <Link to="/signup">Create Free Account</Link>
+            <Link to="/signup">Start your journey with us</Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="bg-transparent border-white/30 text-white hover:bg-white/10">
             <Link to="/contact">Contact Sales</Link>
