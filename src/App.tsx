@@ -12,6 +12,9 @@ import InstitutionDashboard from "./pages/InstitutionDashboard";
 import DealerDashboard from "./pages/DealerDashboard";
 import Browse from "./pages/Browse";
 import HowItWorks from "./pages/HowItWorks";
+import InstitutionLanding from "./pages/InstitutionLanding";
+import DealerLanding from "./pages/DealerLanding";
+import ContactSales from "./pages/ContactSales";
 
 const queryClient = new QueryClient();
 
@@ -27,8 +30,11 @@ const App = () => (
           <Route path="/signup" element={<Signup />} />
           <Route path="/institutions/dashboard" element={<InstitutionDashboard />} />
           <Route path="/dealers/dashboard" element={<DealerDashboard />} />
+          <Route path="/institutions" element={<InstitutionLanding />} />
+          <Route path="/dealers" element={<DealerLanding />} />
           <Route path="/browse" element={<Browse />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
+          <Route path="/contact" element={<ContactSales />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
