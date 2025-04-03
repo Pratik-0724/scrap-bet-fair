@@ -10,12 +10,9 @@ const CtaSection = () => {
         <p className="mt-4 text-xl text-white/80 max-w-3xl mx-auto">
           Join hundreds of institutions and dealers already using our platform to connect, bid, and create value from waste materials.
         </p>
-        <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+        <div className="mt-10 flex justify-center">
           <Button asChild size="lg" variant="secondary">
             <Link to="/signup">Start your journey with us</Link>
-          </Button>
-          <Button asChild size="lg" variant="outline" className="bg-transparent border-white/30 text-white hover:bg-white/10">
-            <Link to="/contact">Contact Sales</Link>
           </Button>
         </div>
       </div>
