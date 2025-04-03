@@ -15,6 +15,7 @@ import HowItWorks from "./pages/HowItWorks";
 import InstitutionLanding from "./pages/InstitutionLanding";
 import DealerLanding from "./pages/DealerLanding";
 import ContactSales from "./pages/ContactSales";
+import ChatBot from "./components/ChatBot/ChatBot";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +39,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <ChatBot />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
